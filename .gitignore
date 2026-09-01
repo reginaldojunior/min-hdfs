@@ -1,0 +1,17 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+*.pyc
+__pycache__/
+
+# Dados e arquivos gerados
+storage_*/
+metadados.json
+recuperado_*.txt
+
+# Arquivo de teste grande
+arquivo_gigante.txt
+
+# Sistema
+.DS_Store

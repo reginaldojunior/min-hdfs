@@ -68,6 +68,21 @@ pip install -r requirements.txt
 
 Isso instala `flask` (para os nós) e `requests` (para o orquestrador) com as versões corretas.
 
+### 3. Gere o arquivo de teste (opcional)
+
+Precisa de um arquivo grande para distribuir? Use o gerador:
+
+```bash
+python gerar_dados.py
+```
+
+Por padrão, ele cria um **`arquivo_gigante.txt` de 50MB** repetindo uma frase. Você pode personalizar o tamanho e o nome editando a chamada no fim do arquivo:
+
+```python
+gerar_arquivo_grande()                        # 50MB (padrão)
+gerar_arquivo_grande("meu_dados.txt", 100)    # 100MB, com outro nome
+```
+
 ---
 
 ## 🚀 Como usar
